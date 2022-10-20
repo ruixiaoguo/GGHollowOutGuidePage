@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A5E5DF8555B1DFC137902B /* libPods-GGHollowOutGuidePageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 049E05D46FEC67D2DCDF376C /* libPods-GGHollowOutGuidePageView.a */; };
+		21281FC82900010F0068A19C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21281FC72900010F0068A19C /* AppDelegate.m */; };
+		21281FCB2900010F0068A19C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21281FCA2900010F0068A19C /* SceneDelegate.m */; };
+		21281FCE2900010F0068A19C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21281FCD2900010F0068A19C /* ViewController.m */; };
+		21281FD12900010F0068A19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21281FCF2900010F0068A19C /* Main.storyboard */; };
+		21281FD3290001100068A19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21281FD2290001100068A19C /* Assets.xcassets */; };
+		21281FD6290001100068A19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21281FD4290001100068A19C /* LaunchScreen.storyboard */; };
+		21281FD9290001100068A19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21281FD8290001100068A19C /* main.m */; };
+		21281FE1290001300068A19C /* GGHollowOutGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21281FE0290001300068A19C /* GGHollowOutGuidePageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049E05D46FEC67D2DCDF376C /* libPods-GGHollowOutGuidePageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GGHollowOutGuidePageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21281FC32900010F0068A19C /* GGHollowOutGuidePageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGHollowOutGuidePageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21281FC62900010F0068A19C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21281FC72900010F0068A19C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21281FC92900010F0068A19C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		21281FCA2900010F0068A19C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		21281FCC2900010F0068A19C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21281FCD2900010F0068A19C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21281FD02900010F0068A19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21281FD2290001100068A19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21281FD5290001100068A19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21281FD7290001100068A19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21281FD8290001100068A19C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21281FDF290001300068A19C /* GGHollowOutGuidePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGHollowOutGuidePageView.h; sourceTree = "<group>"; };
+		21281FE0290001300068A19C /* GGHollowOutGuidePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGHollowOutGuidePageView.m; sourceTree = "<group>"; };
+		56C9CD4A5CB23D54916F3DB7 /* Pods-GGHollowOutGuidePageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGHollowOutGuidePageView.debug.xcconfig"; path = "Target Support Files/Pods-GGHollowOutGuidePageView/Pods-GGHollowOutGuidePageView.debug.xcconfig"; sourceTree = "<group>"; };
+		82CDC1A48228B6FBB6A5F1D5 /* Pods-GGHollowOutGuidePageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGHollowOutGuidePageView.release.xcconfig"; path = "Target Support Files/Pods-GGHollowOutGuidePageView/Pods-GGHollowOutGuidePageView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21281FC02900010F0068A19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A5E5DF8555B1DFC137902B /* libPods-GGHollowOutGuidePageView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21281FBA2900010F0068A19C = {
+			isa = PBXGroup;
+			children = (
+				21281FC52900010F0068A19C /* GGHollowOutGuidePageView */,
+				21281FC42900010F0068A19C /* Products */,
+				27010B08418C189AFA79D2DF /* Pods */,
+				6143649D21048E81EFF909C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21281FC42900010F0068A19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21281FC32900010F0068A19C /* GGHollowOutGuidePageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21281FC52900010F0068A19C /* GGHollowOutGuidePageView */ = {
+			isa = PBXGroup;
+			children = (
+				21281FC62900010F0068A19C /* AppDelegate.h */,
+				21281FC72900010F0068A19C /* AppDelegate.m */,
+				21281FC92900010F0068A19C /* SceneDelegate.h */,
+				21281FCA2900010F0068A19C /* SceneDelegate.m */,
+				21281FCC2900010F0068A19C /* ViewController.h */,
+				21281FCD2900010F0068A19C /* ViewController.m */,
+				21281FDF290001300068A19C /* GGHollowOutGuidePageView.h */,
+				21281FE0290001300068A19C /* GGHollowOutGuidePageView.m */,
+				21281FCF2900010F0068A19C /* Main.storyboard */,
+				21281FD2290001100068A19C /* Assets.xcassets */,
+				21281FD4290001100068A19C /* LaunchScreen.storyboard */,
+				21281FD7290001100068A19C /* Info.plist */,
+				21281FD8290001100068A19C /* main.m */,
+			);
+			path = GGHollowOutGuidePageView;
+			sourceTree = "<group>";
+		};
+		27010B08418C189AFA79D2DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C9CD4A5CB23D54916F3DB7 /* Pods-GGHollowOutGuidePageView.debug.xcconfig */,
+				82CDC1A48228B6FBB6A5F1D5 /* Pods-GGHollowOutGuidePageView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6143649D21048E81EFF909C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049E05D46FEC67D2DCDF376C /* libPods-GGHollowOutGuidePageView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21281FC22900010F0068A19C /* GGHollowOutGuidePageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21281FDC290001100068A19C /* Build configuration list for PBXNativeTarget "GGHollowOutGuidePageView" */;
+			buildPhases = (
+				06DE0BEF2546302589ABF0C4 /* [CP] Check Pods Manifest.lock */,
+				21281FBF2900010F0068A19C /* Sources */,
+				21281FC02900010F0068A19C /* Frameworks */,
+				21281FC12900010F0068A19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGHollowOutGuidePageView;
+			productName = GGHollowOutGuidePageView;
+			productReference = 21281FC32900010F0068A19C /* GGHollowOutGuidePageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21281FBB2900010F0068A19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					21281FC22900010F0068A19C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 21281FBE2900010F0068A19C /* Build configuration list for PBXProject "GGHollowOutGuidePageView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21281FBA2900010F0068A19C;
+			productRefGroup = 21281FC42900010F0068A19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21281FC22900010F0068A19C /* GGHollowOutGuidePageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21281FC12900010F0068A19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21281FD6290001100068A19C /* LaunchScreen.storyboard in Resources */,
+				21281FD3290001100068A19C /* Assets.xcassets in Resources */,
+				21281FD12900010F0068A19C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06DE0BEF2546302589ABF0C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GGHollowOutGuidePageView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21281FBF2900010F0068A19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21281FCE2900010F0068A19C /* ViewController.m in Sources */,
+				21281FC82900010F0068A19C /* AppDelegate.m in Sources */,
+				21281FD9290001100068A19C /* main.m in Sources */,
+				21281FE1290001300068A19C /* GGHollowOutGuidePageView.m in Sources */,
+				21281FCB2900010F0068A19C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21281FCF2900010F0068A19C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21281FD02900010F0068A19C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21281FD4290001100068A19C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21281FD5290001100068A19C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21281FDA290001100068A19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21281FDB290001100068A19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21281FDD290001100068A19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C9CD4A5CB23D54916F3DB7 /* Pods-GGHollowOutGuidePageView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GGHollowOutGuidePageView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gg.GGHollowOutGuidePageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21281FDE290001100068A19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CDC1A48228B6FBB6A5F1D5 /* Pods-GGHollowOutGuidePageView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GGHollowOutGuidePageView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gg.GGHollowOutGuidePageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21281FBE2900010F0068A19C /* Build configuration list for PBXProject "GGHollowOutGuidePageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21281FDA290001100068A19C /* Debug */,
+				21281FDB290001100068A19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21281FDC290001100068A19C /* Build configuration list for PBXNativeTarget "GGHollowOutGuidePageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21281FDD290001100068A19C /* Debug */,
+				21281FDE290001100068A19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21281FBB2900010F0068A19C /* Project object */;
+}
